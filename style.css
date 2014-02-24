@@ -1,0 +1,189 @@
+/*
+ *Core Style
+ *@project 青年网
+ *@version 2.0
+ *@author c1avie (www.c1avie.com)
+ *@copyright new-thread
+ */
+
+/*reset.css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+:focus {outline: 0;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+/*public css*/
+body {font: 14px "微软雅黑";color: #212020;}
+a {text-decoration: none;outline: none;color: #020202;}
+a:hover {color: #cd0001;}
+.wrapper {width: 960px;margin: 0 auto;}
+.title {height: 30px;line-height: 30px;text-align: center;color: #fff;}
+.nodisplay {display: none;}
+p {color: #020202;}
+hr {width: 280px;text-align: center;}
+
+/*title part css*/
+.top {height: 30px;line-height: 30px;color: #000;}
+.top .host {float: left;}
+.top .host span {color: #910000;}
+.top .home-page {float: right;}
+.top .home-page a {margin-right: 10px;color: #000;}
+.top .home-page a:hover {color: #cd0001;}
+
+/*header part css*/
+header {position: relative;height: 200px;background: url(images/header.jpg) no-repeat;}
+header .link {position: absolute;bottom: 0;left: 330px;}
+header .link ul li {float: left;display: inline;line-height: 45px;margin-left: 20px;}
+header .link ul li a {color: #473c3c;}
+header .link ul li a:hover {color: #cd0001;}
+.home-li {position: absolute;left: 405px;top: 30px;line-height: 35px;}
+.home-li a {color: #882626;}
+nav {position: absolute;left: 460px;top: 30px;width: 500px;}
+nav ul li {float: left;display: inline;margin-right: 25px;line-height: 35px;}
+nav ul li a {color: #882626;}
+
+/*content part css*/
+.content {overflow: hidden;}
+.line {margin: 15px 10px;}
+.content h3 {overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.grid1 {float: left;width: 320px;}
+.grid2 {float: left;width: 320px;margin-left: 15px;}
+.grid3 {float: left;width: 270px;margin-left: 15px;}
+.grid1 ul li a {_width: 280px;overflow: hidden;text-overflow: ellipsis;}
+.grid2 ul li a {_width: 280px;overflow: hidden;text-overflow: ellipsis;}
+.ad {width: 960px;height: 120px;text-align: center;}
+.ad img {width: 960px;height: 120px;}
+
+.grid1 .line-title,
+.grid2 .line-title {background: url(images/line-title.png) no-repeat center center;}
+.grid3 .line-title {background: url(images/line-title2.png) no-repeat center center;}
+.line ul li {height: 44px;line-height: 44px;border-bottom: 1px solid #ccc;margin-left: 20px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+#line1 {height: 300px;}
+.banner,
+.news,
+.mircoblog {height: 300px;}
+.banner {position: relative; width: 320px;height: 300px;overflow: hidden;}
+.banner-nav {position: absolute;bottom: 0;width: 100%;height: 30px;line-height: 30px;background: #302f34;background: rgba(48,47,52,0.54);filter: alpha(opacity=54);}
+.banner img {width: 320px;height: 300px;}
+.banner img:first-child {display: block;}
+.banner-change {display: block;float: left;margin-left: 20px;color: #fff;}
+.banner-change span {display: block;width: 150px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.banner-trigger {display: block;float: right;}
+.banner-trigger a {display: inline-block;margin-right: 10px;color: #fff;}
+.banner-trigger .img-curr {font-weight: bold;}
+
+.news .news-title {background: url(images/news-title.png) no-repeat;}
+.news .news-details {height: 270px;background: url(images/news-bg.jpg) no-repeat left bottom;padding: 0 10px;}
+.news .news-details-title {height: 40px;line-height: 40px;font-size: 16px;color: #140554;background: url(images/icon.jpg) no-repeat 10px 15px;padding-left: 30px;}
+.news .news-details p {text-indent: 2em;line-height: 30px;}
+.news .news-details h3 {_width: 280px;overflow: hidden;text-overflow: ellipsis;}
+
+#line2 {height: 350px;}
+.notice,
+.group,
+.book {height: 350px;}
+.line2-title {height: 50px;line-height: 50px;background: url(images/line2-title.png) no-repeat center center;}
+.line2-details {height: 300px;border-bottom: 1px solid #9f1f1f;}
+.line2-details h3 {height: 40px;padding-top: 10px;line-height: 40px;text-indent: 2em;font-size: 16px;}
+.line2-details p {text-indent: 2em;line-height: 30px;}
+.line2-details img {width: 120px;height: 100px;}
+.book dl {float: left;width: 120px;margin: 12px 7px;}
+.book dl dd {text-align: center;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+#line3 {height: 300px;}
+.campus,
+.volunteer,
+.focus {height: 300px;} 
+.campus-title {height: 30px;line-height: 30px;color: #fff}
+.campus-title ul li {float: left;display: inline;width: 105px;height: 30px;margin-left: 1px;line-height: 30px;background: url(images/campus-title.png) no-repeat center center;text-decoration: none;margin: 0;border-bottom: 0;cursor: pointer;text-align: center;}
+.campus-title ul li.current {background: url(images/campus-title-current.png) no-repeat center center;}
+.campus-details {height: 270px;}
+.campus-layout {height: 270px;}
+.volunteer-title {height: 30px;line-height: 30px;color: #fff}
+.volunteer-title ul li {float: left;display: inline;width: 160px;height: 30px;line-height: 30px;background: url(images/literature-title.png) no-repeat center center;text-decoration: none;margin: 0;border-bottom: 0;cursor: pointer;text-align: center;}
+.volunteer-title ul li.current {background: url(images/literature-title-current.png) no-repeat center center;}
+.volunteer-details {height: 270px;}
+.volunteer-layout {height: 270px;}
+
+#line4 {height: 300px;}
+.youth,
+.pioneer,
+.subject {height: 300px;}
+.youth .youth-details {height: 270px;}
+.youth .youth-details-list {padding: 22px 10px;border-bottom: 1px solid #ccc;overflow: hidden;}
+.youth .youth-details-list img {float: left;margin-right: 10px;width: 130px;height: 90px;}
+.youth .youth-details-list p {text-indent: 2em;}
+
+
+#line5 {height: 206px;}
+.literature,
+.fouthyear,
+.download {height: 206px;}
+
+.fouthyear .fouthyear-details {height: 176px;padding: 20px 10px;}
+.fouthyear .fouthyear-details img {float: left;margin-right: 10px;width: 100px;height: 120px;}
+.fouthyear .fouthyear-details p {text-indent: 2em;}
+
+.scene {height: 150px;margin: 0 auto;overflow: hidden;}
+.scene-nav {position: relative;float: left;width: 810px;height: 180px;margin-top: 15px;overflow: hidden;}
+.scene-nav-inner {position: absolute;left: 0;}
+.scene-array {width: 180px;float: left;height: 120px;margin-right: 30px;}
+.scene-array img {width: 180px;height: 120px;}
+.scene-left {float: left;width: 52px;margin-right: 23px;cursor: pointer;}
+.scene-right {float: right;width: 52px;margin-left: 23px;cursor: pointer;}
+
+/*footer part css*/
+footer {
+	height: 150px;
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 1px;
+	 /* fallback */
+	background-color: #ab000a;
+	background-repeat: repeat-y;
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, left top, right top, from(#920000), to(#b9040b));
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(left, #920000, #b9040b);
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(left, #920000, #b9040b);
+	/* IE 10 */
+	background: -ms-linear-gradient(left, #920000, #b9040b);
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(left, #920000, #b9040b);
+}
+footer p {color: #fff;}
+footer p.copyright {margin-top: 40px;}
+footer p.address {margin-top: 10px;}
+footer a {color: #fff;}
+footer a:hover {text-decoration: underline;color: #fff;}
+
+/*
+ *list Style
+ */
+.main {width: 680px;float: left;margin-top: 15px;}
+aside {width: 270px;float: right;margin-top: 15px;}
+.main h2 {height: 30px;line-height: 30px;padding-left: 10px;background: #e8e8e8;border-radius: 5px;font-weight: normal;}
+.paging {float: right;margin: 10px 50px 0 0;}
+.paging a {margin-right: 10px;}
+/*
+ *article style
+ */
+ .article h1 {margin-top: 20px;line-height: 40px;font-size: 22px;color: #d60405;font-weight: normal;text-align: center;}
+ .article h3 {text-align: center;font-weight: normal;line-height: 30px;margin-bottom: 20px;}
+ .article h3 span {margin-right: 10px;}
+ .article p {text-indent: 2em;line-height: 30px;font-size: 14px;}
+ .article img {max-width: 600px;max-height: 900px;}
